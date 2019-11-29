@@ -1,0 +1,11 @@
+AP
+Q = {p,q,r}
+sigma = {i,e}
+simbp = {X,Z}
+p: estado_inicial
+X: simbolo_de_pilha_inicial
+F = {r}
+delta(p,epsilon,X) = {(q,ZX)}
+delta(q,i,Z) = {(q,ZZ)}
+delta(q,e,Z) = {(q,epsilon)}
+delta(q,epsilon,X) = {(r,epsilon)}
